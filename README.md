@@ -15,7 +15,7 @@ Example:
 }).execute("bar").then(function(foo) {
   // foo == "bar_inner" here
 }).catch(function(err) {
-  // Errors throw in the worker will appear here
+  // Errors thrown in the worker will appear here
 });</pre>
 
 You can also return a Promise in your worker if you need to do something not just long running, but also async:
